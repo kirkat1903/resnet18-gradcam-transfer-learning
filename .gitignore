@@ -1,0 +1,9 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# датасет и веса модели — слишком большие для репозитория,
+# генерируются prepare_dataset.py и train.py
+data/
+best_model.pt
